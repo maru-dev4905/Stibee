@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow: hidden !important;
+}
+html{
+	overflow: hidden !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+button{
+    background: transparent;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+.bg-red		{background-color: #ff5252;}
+.bg-gray5	{background-color: #5d6166;}
+.bg-gray4	{background-color: #85898c;}
+.bg-gray3	{background-color: #aeb0b2;}
+.bg-gray2	{background-color: #dfe0e4;}
+.bg-yellow	{background-color: #f8c94e;}
+
+.cl-red		{color: #ff5252;}
+.cl-white	{color: #fff}
+.cl-black	{color: #343a40}
+.cl-yellow	{color: #f8c94e;}
+
+.h-60{height: 60px;}
+.h-48{height: 48px;}
+.h-32{height: 32px;}
+.h-24{height: 24px;}
+.h-12{height: 12px;}
+
+.w-32{width: 32px;}
+.w-24{width: 24px;}
+.w-12{width: 12px;}
+.w-8{width: 8px;}
+.w-6{width: 6px;}
+
+.rectangle{display: block;}
+.circle{border-radius: 50%;}
+
+input{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+}
+a,button{
+	cursor: pointer;
+}
+a { text-decoration:none !important } a:hover { text-decoration:none !important }
+#fullpage{
+	top: 0 !important;
+	left: 0 !important;
+	width: 100vw !important;
+	height: 100vh !important;
+	position: fixed !important;
+}
+.intro-title-circle{
+	position: fixed !important;
+}
+.sec-header{
+	position: fixed !important;
+}
